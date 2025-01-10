@@ -22,7 +22,7 @@ title: "Abhi Ramakrishnan"
 # description: "Personal website showcasing my experiences and music blog"
 author: ""
 baseurl: "" # Keep this blank unless using a subpath
-url: "https://abhishekramakri.com" # Change if using a custom domain
+url: "https://abhishekramakri.github.io" # Change if using a custom domain
 
 github_username:  abhishekramakri
 linkedin_username: abhishek-ramakrishnan1005
