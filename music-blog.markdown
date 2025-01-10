@@ -8,7 +8,7 @@ title: Music Blog
 </div>
 
 <div class="blog-intro">
-    <p>Welcome to my music blog! For my 2025 New Year's resolution, I decided to listen to at least one new album I have never heard before every week. Here, I'll be sharing my thoughts, experiences, and ratings for each album I discover along the way.</p>
+    <p>For my 2025 New Year's resolution, I decided to listen to at least one new album I have never heard before every week. Here, I'll be sharing my thoughts, experiences, and ratings for each album I discover along the way.</p>
     
     <p>Through this, I'm hoping to broaden my music taste and maybe help you discover some new favorites too!</p>
 </div>
