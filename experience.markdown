@@ -48,13 +48,13 @@ title: Experience
         <div class="experience-item">
             <h3>GeoGroove</h3>
             <div class="experience-meta">June 2024</div>
-            <p>I helped create a award-winning hackathon app that curates playlists based on specified locations, leveraging MusicBrainz and Spotify APIs to extract representative artists and tracks. Developed a seamless Spotify authentication process for effortless playlist creation and population.</p>
+            <p>I helped create an award-winning hackathon app that curates playlists based on specified locations, leveraging MusicBrainz and Spotify APIs to extract representative artists and tracks. Developed a seamless Spotify authentication process for effortless playlist creation and population.</p>
         </div>
 
         <div class="experience-item">
             <h3>Custom Calendar</h3>
             <div class="experience-meta">Aug 2023 - Dec 2023</div>
-            <p>I collaborate with a team to develop an integrated interface that consolidates assignment deadlines from Canvas and PrairieLearn, using Flask, Selenium, and React. I also implemented automated assignment data import tailored specifically for UIUC students, streamlining their workflow.</p>
+            <p>As part of a collaborative project, I worked on developing an integrated interface that consolidates assignment deadlines from Canvas and PrairieLearn, using Flask, Selenium, and React. I also implemented an automated assignment data import system tailored specifically for UIUC students, streamlining their workflow and making it easier to track and manage deadlines.</p>
         </div>
     </section>
 </div>
