@@ -44,7 +44,7 @@ cover_image: "/Reviews/AlbumCovers/ArcticMonkeys-AM.jpg"
     </div>
 
     <div class="review-content">
-        <p>AM is the wildly successful fifth studio album from Arctic Monkeys, an album that came at an interesting time in their career. To understand where this album comes from, you need some context about Arctic Monkeys' trajectory. They first hit the scene in 2002 and were met with wild acclaim from both critics and audiences for their loud, bold debut album, Whatever People Say I Am, That's What I'm Not. It was a heavy garage rock record with standout tracks like I Bet That You Look Good on the Dance Floor and the noticeably more laid-back Mardy Bum.</p>
+        <p>AM, the wildly successful fifth studio album by Arctic Monkeys, came at an interesting time in their career. To understand where this album comes from, you need some context about Arctic Monkeys' trajectory. They first hit the scene in 2002 and were met with wild acclaim from both critics and audiences for their loud, bold debut album, Whatever People Say I Am, That's What I'm Not. It was a heavy garage rock record with standout tracks like I Bet That You Look Good on the Dance Floor and the noticeably more laid-back Mardy Bum.</p>
 
         <p>This success carried into their second beloved album, Favourite Worst Nightmare, which took all the energy and excitement from their debut and channeled it into a more indie rock direction. Alex Turner's singing became more melodic, but the band still kept the energetic highs that made their first album so fun. The outro track 505 became hugely popular and even hinted at the direction they'd lean into more heavily in their later albums, particularly Suck It and See.</p>
 
