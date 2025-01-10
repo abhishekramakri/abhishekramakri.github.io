@@ -1,0 +1,526 @@
+/* main.css */
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Libre Baskerville', serif;
+    --text-color: #1a1a1a;
+    --background: #ffffff;
+    --accent: #FF3530;
+    --gray-light: #f4f4f4;
+    --gray-medium: #666666;
+    --gray-dark: #333333;
+}
+
+/* Base Styles */
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.site-header {
+    background-color: #000000; /* Changed to black */
+    padding: 2rem 0;
+    border-bottom: 1px solid #333333; /* Darker border for contrast */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff; /* Changed to white */
+    letter-spacing: -0.02em;
+}
+
+.site-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.site-nav a {
+    color: #ffffff; /* Changed to white */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: color 0.2s ease;
+}
+
+.site-nav a:hover {
+    color: var(--accent); /* Kept the accent color for hover */
+}
+
+.site-header {
+    transition: background-color 0.3s ease;
+}
+
+/* Main Content */
+.page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Homepage Styles */
+.hero-section {
+    margin: 4rem auto;
+    text-align: left;
+}
+
+.hero-section h1 {
+    font-family: var(--secondary-font);
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: var(--gray-dark);
+    font-family: var(--secondary-font);
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.professional-section,
+.personal-section {
+    margin: 3rem 0;
+}
+
+h2 {
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;
+    margin: 2rem 0 1.5rem 0;
+    text-align: left;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: var(--gray-dark);
+}
+
+.outro-section {
+    margin: 3rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--gray-light);
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--gray-light);
+    padding: 4rem 2rem;
+    margin-top: 6rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.footer-section h4 {
+    font-family: var(--secondary-font);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-section a {
+    color: var(--gray-dark);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.75rem;
+    transition: color 0.2s ease;
+}
+
+.footer-section a:hover {
+    color: var(--accent);
+}
+
+/* Links */
+.inline-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.inline-link:hover {
+    border-bottom-color: var(--accent);
+}
+
+/* Article/Blog Post Specific Styles */
+.article-header {
+    margin-bottom: 2rem;
+}
+
+.article-header h1 {
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;  /* Made consistent with other headings */
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.article-meta {
+    font-size: 0.875rem;
+    color: var(--gray-medium);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.article-content {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .site-title {
+        font-size: 2rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .site-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page-content {
+        padding: 0 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Experience Page Styles */
+.resume-link {
+    font-size: 1.1rem;
+    margin: 1rem 0;  /* Reduced margin */
+    color: var(--gray-dark);
+}
+
+.section-block {
+    margin-bottom: 3rem;  /* Adjusted spacing between sections */
+}
+
+.section-block h2 {
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;  /* Made consistent with main heading */
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--gray-light);
+    padding-bottom: 0.5rem;
+}
+
+.experience-item {
+    margin-bottom: 2.5rem;
+}
+
+.experience-item h3 {
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.experience-meta {
+    font-size: 0.9rem;
+    color: var(--gray-medium);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.experience-role {
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--gray-dark);
+    margin-bottom: 1rem;
+}
+
+/* Music Blog Styles */
+.blog-intro {
+    margin: 2rem 0 2rem 0;
+    max-width: 1100px;
+}
+
+.blog-intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: var(--gray-dark);
+}
+
+.reviews-section {
+    margin: 0;
+}
+
+.reviews-section h2 {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.review-card {
+    text-decoration: none;
+    color: var(--text-color);
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    border: 1px solid var(--gray-light);
+}
+
+.review-card:hover {
+    transform: translateY(-4px);
+}
+
+.review-image {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.review-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover .review-image img {
+    transform: scale(1.05);
+}
+
+.review-info {
+    padding: 1.5rem;
+}
+
+.album-title {
+    font-family: var(--secondary-font);
+    font-size: 2rem;  /* Increased from 1.4rem */
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-weight: 700;  /* Made it bolder */
+}
+
+.artist-name {
+    font-size: 1.2rem;
+    color: var(--gray-dark);
+    margin-bottom: 0.5rem;
+}
+
+.review-date {
+    font-size: 0.9rem;
+    color: var(--gray-medium);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .reviews-grid {
+        margin-top: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+    
+    .blog-intro p {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+/* Album Review Styles */
+.album-review {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.review-header {
+    display: grid;
+    grid-template-columns: minmax(300px, 500px) 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    align-items: start;
+}
+
+.cover-container {
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.album-cover {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.review-info h1 {
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.rating-container {
+    margin: 2rem 0;
+}
+
+.rating {
+    display: inline-flex;
+    align-items: baseline;
+    background-color: var(--accent);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.rating-number {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.rating-max {
+    font-size: 1.2rem;
+    margin-left: 2px;
+}
+
+.album-metadata {
+    margin-top: 2rem;
+}
+
+.metadata-item {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: var(--gray-dark);
+}
+
+.metadata-item .label {
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.review-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: var(--gray-dark);
+}
+
+.song-highlights {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.song-highlights h2 {
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.song-highlights ul {
+    list-style: none;
+    padding: 0;
+}
+
+.song-highlights li {
+    font-size: 1.1rem;
+    color: var(--gray-dark);
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--gray-light);
+}
+
+/* Responsive adjustments */
+@media (max-width: 968px) {
+    .review-header {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .cover-container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .song-highlights {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .album-review {
+        padding: 1rem;
+    }
+
+    .review-info h1 {
+        font-size: 2rem;
+    }
+
+    .review-content p {
+        font-size: 1.1rem;
+    }
+}

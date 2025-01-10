@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/experience' | relative_url }}">Experience</a>
+                <a href="{{ '/music-blog' | relative_url }}">Music Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>Computer Science + Music student at UIUC, exploring the intersection of technology and creativity.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/experience' | relative_url }}">Experience</a>
+                <a href="{{ '/music-blog' | relative_url }}">Music Blog</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                {% if site.github_username %}
+                <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+                {% endif %}
+                {% if site.linkedin_username %}
+                <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+                {% endif %}
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
