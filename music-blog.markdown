@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Reviews/HaveANiceLife-Deathconsciousness" class="review-card">
+            <div class="review-image">
+                <img src="/Reviews/AlbumCovers/HaveANiceLife-Deathconsciousness.jpg" alt="Deathconsciousness by Have A Nice Life">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">Deathconsciousness</h3>
+                <p class="artist-name">Have A Nice Life</p>
+                <p class="review-date">January 17, 2024</p>
+            </div>
+        </a>
         <a href="/Reviews/ArcticMonkeys-AM" class="review-card">
             <div class="review-image">
                 <img src="/Reviews/AlbumCovers/ArcticMonkeys-AM.jpg" alt="AM by Arctic Monkeys">
