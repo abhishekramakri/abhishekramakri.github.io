@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Reviews/KanyeWest-Graduation" class="review-card">
+            <div class="review-image">
+                <img src="/Reviews/AlbumCovers/KanyeWest-Graduation.jpg" alt="Deathconsciousness by Have A Nice Life">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">Graduation</h3>
+                <p class="artist-name">Kanye West</p>
+                <p class="review-date">January 26, 2024</p>
+            </div>
+        </a>
         <a href="/Reviews/HaveANiceLife-Deathconsciousness" class="review-card">
             <div class="review-image">
                 <img src="/Reviews/AlbumCovers/HaveANiceLife-Deathconsciousness.jpg" alt="Deathconsciousness by Have A Nice Life">
