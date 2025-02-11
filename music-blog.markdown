@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Reviews/Drake-CertifiedLoverBoy" class="review-card">
+            <div class="review-image">
+                <img src="/Reviews/AlbumCovers/Drake-CertifiedLoverBoy.jpg" alt="Certified Lover Boy by Drake">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">Certified Lover Boy</h3>
+                <p class="artist-name">Drake</p>
+                <p class="review-date">February 10, 2024</p>
+            </div>
+        </a>
         <a href="/Reviews/KanyeWest-Graduation" class="review-card">
             <div class="review-image">
                 <img src="/Reviews/AlbumCovers/KanyeWest-Graduation.jpg" alt="Deathconsciousness by Have A Nice Life">
