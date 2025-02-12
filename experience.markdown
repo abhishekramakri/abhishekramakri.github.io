@@ -46,13 +46,18 @@ title: Experience
     <section class="section-block">
         <h2>Projects</h2>
         <div class="experience-item">
-            <h3>GeoGroove</h3>
+            <h3><a href="https://github.com/PillaiFanClub/Ladidadidaaaa" target="_blank" rel="noopener noreferrer">Arcade Karaoke</a> | AWS Award Winner @ Hack@Brown 2025</h3>
+            <div class="experience-meta">Feb 2025</div>
+            <p>As part of a collaborative project, I developed a multiplayer web-based karaoke game that allows players to join remotely using their phones. I implemented post-performance pitch analysis using Dynamic Time Warping (DTW) and librosa for pitch detection, along with a caching system to pre-process reference vocals for faster analysis. Built with React, Express, Python, and WebSockets, the game ensures seamless host-player interactions and real-time audio analysis.</p>
+        </div>
+        <div class="experience-item">
+            <h3><a href="https://github.com/ekcom/GeoGroove" target="_blank" rel="noopener noreferrer">GeoGroove</a> | Skillful Execution Award @ UIUC Research Park Hackathon 2024</h3>
             <div class="experience-meta">June 2024</div>
-            <p>I helped create an award-winning hackathon app that curates playlists based on specified locations, leveraging MusicBrainz and Spotify APIs to extract representative artists and tracks. Developed a seamless Spotify authentication process for effortless playlist creation and population.</p>
+            <p>I worked on GeoGroove, a location-based music discovery tool that curates personalized Spotify playlists based on geographic regions. My role focused on implementing Spotify authentication to ensure seamless playlist creation and integration. The system leverages MusicBrainz to extract representative artists and uses Spotify’s API to rank them by popularity and fetch top tracks. Built with Python and Flask, GeoGroove enhances cultural immersion through music by allowing users to explore popular artists from specific locations.</p>
         </div>
 
         <div class="experience-item">
-            <h3>Custom Calendar</h3>
+            <h3><a href="https://github.com/abhishekramakri/Custom-Calendar" target="_blank" rel="noopener noreferrer">UIUC Custom Calendar</a> | CS 222: Software Design Lab</h3>
             <div class="experience-meta">Aug 2023 - Dec 2023</div>
             <p>As part of a collaborative project, I worked on developing an integrated interface that consolidates assignment deadlines from Canvas and PrairieLearn, using Flask, Selenium, and React. I also implemented an automated assignment data import system tailored specifically for UIUC students, streamlining their workflow and making it easier to track and manage deadlines.</p>
         </div>
