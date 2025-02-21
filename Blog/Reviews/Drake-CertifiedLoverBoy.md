@@ -7,7 +7,7 @@ rating: 4.7
 genre: "Hip-Hop, R&B"
 release_date: "September 3, 2021"
 review_date: "February 10, 2025"
-cover_image: "/Reviews/AlbumCovers/Drake-CertifiedLoverBoy.jpg"
+cover_image: "/Blog/AlbumCovers/Drake-CertifiedLoverBoy.jpg"
 ---
 
 

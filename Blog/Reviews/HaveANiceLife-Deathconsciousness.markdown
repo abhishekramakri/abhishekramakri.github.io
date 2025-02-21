@@ -7,7 +7,7 @@ rating: 8.4
 genre: "Post Punk, Shoegaze"
 release_date: "January 24, 2008"
 review_date: "January 17, 2024"
-cover_image: "/Reviews/AlbumCovers/HaveANiceLife-Deathconsciousness.jpg"
+cover_image: "/Blog/AlbumCovers/HaveANiceLife-Deathconsciousness.jpg"
 ---
 
 <article class="album-review">

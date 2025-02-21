@@ -7,7 +7,7 @@ rating: 7.9
 genre: "Alternative Rock, Indie Rock"
 release_date: "September 9, 2013"
 review_date: "January 9, 2024"
-cover_image: "/Reviews/AlbumCovers/ArcticMonkeys-AM.jpg"
+cover_image: "/Blog/AlbumCovers/ArcticMonkeys-AM.jpg"
 ---
 
 <article class="album-review">

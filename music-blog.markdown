@@ -16,9 +16,19 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
-        <a href="/Reviews/Drake-CertifiedLoverBoy" class="review-card">
+        <a href="/Blog/Reviews/Venturing-Ghostholding" class="review-card">
             <div class="review-image">
-                <img src="/Reviews/AlbumCovers/Drake-CertifiedLoverBoy.jpg" alt="Certified Lover Boy by Drake">
+                <img src="/Blog/AlbumCovers/Venturing-Ghostholding.jpg" alt="Ghostholding by venturing">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">Ghostholding</h3>
+                <p class="artist-name">venturing (Jane Remover)</p>
+                <p class="review-date">February 21, 2024</p>
+            </div>
+        </a>
+        <a href="/Blog/Reviews/Drake-CertifiedLoverBoy" class="review-card">
+            <div class="review-image">
+                <img src="/Blog/AlbumCovers/Drake-CertifiedLoverBoy.jpg" alt="Certified Lover Boy by Drake">
             </div>
             <div class="review-info">
                 <h3 class="album-title">Certified Lover Boy</h3>
@@ -26,9 +36,9 @@ title: Music Blog
                 <p class="review-date">February 10, 2024</p>
             </div>
         </a>
-        <a href="/Reviews/KanyeWest-Graduation" class="review-card">
+        <a href="/Blog/Reviews/KanyeWest-Graduation" class="review-card">
             <div class="review-image">
-                <img src="/Reviews/AlbumCovers/KanyeWest-Graduation.jpg" alt="Deathconsciousness by Have A Nice Life">
+                <img src="/Blog/AlbumCovers/KanyeWest-Graduation.jpg" alt="Deathconsciousness by Have A Nice Life">
             </div>
             <div class="review-info">
                 <h3 class="album-title">Graduation</h3>
@@ -36,9 +46,9 @@ title: Music Blog
                 <p class="review-date">January 26, 2024</p>
             </div>
         </a>
-        <a href="/Reviews/HaveANiceLife-Deathconsciousness" class="review-card">
+        <a href="/Blog/Reviews/HaveANiceLife-Deathconsciousness" class="review-card">
             <div class="review-image">
-                <img src="/Reviews/AlbumCovers/HaveANiceLife-Deathconsciousness.jpg" alt="Deathconsciousness by Have A Nice Life">
+                <img src="/Blog/AlbumCovers/HaveANiceLife-Deathconsciousness.jpg" alt="Deathconsciousness by Have A Nice Life">
             </div>
             <div class="review-info">
                 <h3 class="album-title">Deathconsciousness</h3>
@@ -46,9 +56,9 @@ title: Music Blog
                 <p class="review-date">January 17, 2024</p>
             </div>
         </a>
-        <a href="/Reviews/ArcticMonkeys-AM" class="review-card">
+        <a href="/Blog/Reviews/ArcticMonkeys-AM" class="review-card">
             <div class="review-image">
-                <img src="/Reviews/AlbumCovers/ArcticMonkeys-AM.jpg" alt="AM by Arctic Monkeys">
+                <img src="/Blog/AlbumCovers/ArcticMonkeys-AM.jpg" alt="AM by Arctic Monkeys">
             </div>
             <div class="review-info">
                 <h3 class="album-title">AM</h3>
