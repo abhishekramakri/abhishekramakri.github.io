@@ -5,7 +5,7 @@ title: Experience
 
 <div class="article-header">
     <h1>Experience</h1>
-    <p class="resume-link">If you'd like to know more about my Experience, feel free to check out my <a href="https://www.overleaf.com/read/hcmvfgfbfvpv#0f177e" class="inline-link" target="_blank">resume</a>!</p>
+    <p class="resume-link">If you'd like to know more about my Experience, feel free to check out my <a href="https://drive.google.com/file/d/1pkvMenmO7Ylg4L0zPpRh8tOBDWTRrXU4/view?usp=sharing" class="inline-link" target="_blank">resume</a>!</p>
 </div>
 
 <div class="article-content">
