@@ -8,7 +8,7 @@ title: Music Blog
 </div>
 
 <div class="blog-intro">
-    <p>For my 2025 New Year's resolution, I decided to listen to at least one new album I have never heard before every week. Here, I'll be sharing my thoughts, experiences, and ratings for each album I discover along the way.</p>
+    <p>For my 2025 New Year's resolution, I decided to listen to at least one new album I have never heard before every other week. Here, I'll be sharing my thoughts, experiences, and ratings for each album I discover along the way.</p>
     
     <p>Through this, I'm hoping to broaden my music taste and maybe help you discover some new favorites too!</p>
 </div>
@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Blog/Reviews/PlayboiCarti-MUSIC" class="review-card">
+            <div class="review-image">
+                <img src="/Blog/AlbumCovers/PlayboiCarti-MUSIC.webp" alt="MUSIC by Playboi Carti">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">MUSIC</h3>
+                <p class="artist-name">Playboi Carti</p>
+                <p class="review-date">March 15th, 2025</p>
+            </div>
+        </a>
         <a href="/Blog/Reviews/Venturing-Ghostholding" class="review-card">
             <div class="review-image">
                 <img src="/Blog/AlbumCovers/Venturing-Ghostholding.jpg" alt="Ghostholding by venturing">

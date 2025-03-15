@@ -20,9 +20,10 @@ title: Abhi Ramakrishnan
 
     <section class="personal-section">
         <h2>Music in my Life</h2>
-        <p>Outside of work and research, music has always been a significant part of my life. I’ve played the cello for over 10 years, performed with the Elgin Youth Symphony Orchestra during high school, and am now learning acoustic guitar. I enjoy both creating and listening to music, and learning about the technical aspects like dynamic range processing and delay lines makes the experience even more fulfilling.</p>
+        <p>Music has always been a big part of my life. I played the cello for over ten years, performed with the Elgin Youth Symphony Orchestra in high school, and lately, I’ve been learning acoustic guitar and piano. I love making music and listening to it, and understanding the technical side, like digital signal processing, just makes it even cooler.</p>
 
-        <p>One of my favorite things about listening to music is revisiting songs that initially challenged me and discovering their depth. Back in high school, I was mostly into rap-adjacent genres and couldn't imagine listening to anything else. Now, I find myself listening to everything from folk to pop-punk to shoegaze, always finding new ways in which music helps me connect to new emotions and experiences.</p>
+        <p>What I love most about music is how it can completely change the way you feel and express yourself. There are so many genres and subgenres that seem hard to get into at first, but once you do, they open up a whole new way of experiencing emotions and ideas. Back in high school, I mostly listened to rap-adjacent stuff and couldn’t really imagine branching out, but now I’m into everything from folk to shoegaze. No matter what, I’m always finding new ways music hits me.
+</p>
     </section>
 
     <section class="outro-section">
