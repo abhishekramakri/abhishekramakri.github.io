@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Blog/Reviews/BCNR-ForTheFirstTime" class="review-card">
+            <div class="review-image">
+                <img src="/Blog/AlbumCovers/BCNR-ForTheFirstTime.webp" alt="For the first time by Black Country, New Road">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">MUSIC</h3>
+                <p class="artist-name">Playboi Carti</p>
+                <p class="review-date">April 3rd, 2025</p>
+            </div>
+        </a>
         <a href="/Blog/Reviews/PlayboiCarti-MUSIC" class="review-card">
             <div class="review-image">
                 <img src="/Blog/AlbumCovers/PlayboiCarti-MUSIC.webp" alt="MUSIC by Playboi Carti">
