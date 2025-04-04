@@ -21,8 +21,8 @@ title: Music Blog
                 <img src="/Blog/AlbumCovers/BCNR-ForTheFirstTime.webp" alt="For the first time by Black Country, New Road">
             </div>
             <div class="review-info">
-                <h3 class="album-title">MUSIC</h3>
-                <p class="artist-name">Playboi Carti</p>
+                <h3 class="album-title">For the first time</h3>
+                <p class="artist-name">Black Country, New Road</p>
                 <p class="review-date">April 3rd, 2025</p>
             </div>
         </a>
