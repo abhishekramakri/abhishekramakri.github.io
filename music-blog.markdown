@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Blog/Reviews/MalcolmTodd-SelfTitled" class="review-card">
+            <div class="review-image">
+                <img src="/Blog/AlbumCovers/MalcolmTodd-SelfTitled.jpeg" alt="Malcolm Todd by Malcolm Todd">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">Malcolm Todd</h3>
+                <p class="artist-name">Malcolm Todd</p>
+                <p class="review-date">April 29th, 2025</p>
+            </div>
+        </a>
         <a href="/Blog/Reviews/BCNR-ForTheFirstTime" class="review-card">
             <div class="review-image">
                 <img src="/Blog/AlbumCovers/BCNR-ForTheFirstTime.webp" alt="For the first time by Black Country, New Road">
