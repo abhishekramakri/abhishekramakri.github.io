@@ -21,6 +21,21 @@ title: Experience
 
     <section class="section-block">
         <h2>Work Experience</h2>
+
+        <div class="experience-item">
+            <h3>Amazon</h3>
+            <div class="experience-meta">May 2025 - Aug 2025</div>
+            <div class="experience-role">Software Developer Intern</div>
+            <p>I will be eating plenty of bananas.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Binaural Hearing Lab</h3>
+            <div class="experience-meta">Mar 2025 - Present</div>
+            <div class="experience-role">Undergraduate Research Assistant</div>
+            <p>At the Binaural Hearing Lab, I’ve been contributing to the development of the CCi-Mobile cochlear implant research platform. My work focuses on enhancing signal processing modules in MATLAB, particularly for generating electrodograms used in auditory experiments. I’ve been implementing and refining functions within the Advanced Combination Encoder (ACE) strategy, including audio preprocessing, automatic gain control, and FFT-based filterbanks. I also support GUI development and real-time hardware streaming through an RF interface, enabling real-time stimulation for auditory research conducted under Dr. Justin Aranoff.</p>
+        </div>
+
         <div class="experience-item">
             <h3>COUNTRY Financial</h3>
             <div class="experience-meta">Jan 2024 - Dec 2024</div>
@@ -29,9 +44,9 @@ title: Experience
         </div>
 
         <div class="experience-item">
-            <h3>UIUC Department of Information Science</h3>
+            <h3>National Center for Supercomputing Applications</h3>
             <div class="experience-meta">Aug 2024 - Present</div>
-            <div class="experience-role">Undergraduate Researcher</div>
+            <div class="experience-role">Undergraduate Research Assistant</div>
             <p>I’ve been collaborating on the DISSCO project under Dr. Sever Tipei, focusing on enhancing software for musical composition, sound synthesis, and notation. Using C++ and high-performance computing, I’ve worked on improving the system's capabilities and implementing statistically-driven applications of musical features within the composition module.</p>
         </div>
 
