@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Blog/Reviews/SufjanStevens-CarrieAndLowell" class="review-card">
+            <div class="review-image">
+                <img src="/Blog/AlbumCovers/SufjanStevens-CarrieAndLowell.webp" alt="Carrie & Lowell by Sufjan Stevens">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">Carrie & Lowell</h3>
+                <p class="artist-name">Sufjan Stevens</p>
+                <p class="review-date">July 19th, 2025</p>
+            </div>
+        </a>
         <a href="/Blog/Reviews/MalcolmTodd-SelfTitled" class="review-card">
             <div class="review-image">
                 <img src="/Blog/AlbumCovers/MalcolmTodd-SelfTitled.jpeg" alt="Malcolm Todd by Malcolm Todd">
