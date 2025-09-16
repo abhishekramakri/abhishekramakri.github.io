@@ -13,8 +13,10 @@ title: Experience
         <h2>Education</h2>
         <div class="experience-item">
             <h3>University of Illinois Urbana-Champaign</h3>
-            <div class="experience-meta">Aug 2022 - May 2026</div>
-            <div class="experience-role">BS in Computer Science + Music, Minor in Statistics and Astrophysics</div>
+            <div class="experience-meta">Jan 2026 - Dec 2026</div>
+            <div class="experience-role">Masters of Computer Science</div>
+            <div class="experience-meta">Aug 2022 - Dec 2025</div>
+            <div class="experience-role">Bachelors of Science in Computer Science + Music</div>
             <p>Relevant Coursework: Artificial Intelligence, Algorithms, Computer Architecture, Data Structures, Audio Processing Technology, Computation and Music, Electroacoustics</p>
         </div>
     </section>
@@ -24,16 +26,25 @@ title: Experience
 
         <div class="experience-item">
             <h3>Amazon</h3>
-            <div class="experience-meta">May 2025 - Aug 2025</div>
+            <div class="experience-meta">May 2025 – Aug 2025</div>
             <div class="experience-role">Software Developer Intern</div>
-            <p>I will be eating plenty of bananas.</p>
+            <p>
+                During my internship with Amazon in Seattle, I built a full end-to-end machine-learning model testing system for an internal SageMaker tool. 
+                This let data scientists validate fraud-detection models directly in production without committing code, cutting development time roughly in half. 
+                I also designed a secure cross-account deployment architecture that used UUID authentication, Java APIs, Python wrappers, and AWS services such as S3, DynamoDB, and Step Functions to automate model deployment workflows. 
+                To support it all, I engineered an automated pipeline for Python packaging, secure uploads, and CloudWatch monitoring.
+            </p>
         </div>
+
 
         <div class="experience-item">
             <h3>Binaural Hearing Lab</h3>
-            <div class="experience-meta">Mar 2025 - Present</div>
+            <div class="experience-meta">Mar 2025 - Aug 2025</div>
             <div class="experience-role">Undergraduate Research Assistant</div>
-            <p>At the Binaural Hearing Lab, I’ve been contributing to the development of the CCi-Mobile cochlear implant research platform. My work focuses on enhancing signal processing modules in MATLAB, particularly for generating electrodograms used in auditory experiments. I’ve been implementing and refining functions within the Advanced Combination Encoder (ACE) strategy, including audio preprocessing, automatic gain control, and FFT-based filterbanks. I also support GUI development and real-time hardware streaming through an RF interface, enabling real-time stimulation for auditory research conducted under Dr. Justin Aranoff.</p>
+            <p>
+            At the Binaural Hearing Lab, I contributed to the development of the CCi-Mobile cochlear implant research platform. My work focused on enhancing signal processing modules in MATLAB, particularly for generating electrodograms used in auditory experiments. I implemented and refined functions within the Advanced Combination Encoder (ACE) strategy, including audio preprocessing, automatic gain control, and FFT-based filterbanks. I also supported GUI development and real-time hardware streaming through an RF interface, enabling real-time stimulation for auditory research conducted under Dr. Justin Aranoff.
+            </p>
+
         </div>
 
         <div class="experience-item">
@@ -45,7 +56,7 @@ title: Experience
 
         <div class="experience-item">
             <h3>National Center for Supercomputing Applications</h3>
-            <div class="experience-meta">Aug 2024 - Present</div>
+            <div class="experience-meta">Aug 2024 - Mar 2025</div>
             <div class="experience-role">Undergraduate Research Assistant</div>
             <p>I’ve been collaborating on the DISSCO project under Dr. Sever Tipei, focusing on enhancing software for musical composition, sound synthesis, and notation. Using C++ and high-performance computing, I’ve worked on improving the system's capabilities and implementing statistically-driven applications of musical features within the composition module.</p>
         </div>

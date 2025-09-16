@@ -11,12 +11,17 @@ title: Abhi Ramakrishnan
 
     <section class="professional-section">
         <h2>Professional Journey</h2>
-        <p>This year, I worked at COUNTRY Financial, where I designed and implemented a Retrieval-Augmented Generation (RAG) system using Azure OpenAI to optimize insurance policy retrieval. I also developed a POC to migrate GitLab CI/CD runners to Azure Kubernetes, saving $100k annually by enhancing scalability.</p>
-        
-        <p>Last summer, I interned at JIFFY.ai in Palo Alto, creating auto-generative user manuals using OpenAI's API and building a React demo page to showcase product features. At UIUC, I'm collaborating on the DISSCO project under Dr. Sever Tipei, leveraging high-performance computing to enhance music composition software.</p>
-        
-        <p>I've also developed projects like GeoGroove, a hackathon-winning app that curates playlists from specified locations using Spotify APIs, and a custom calendar tool to streamline assignment tracking for UIUC students.</p>
+        <p>
+            I recently interned at Amazon, where I built an end-to-end ML model testing system on SageMaker and designed a secure cross-account deployment workflow with AWS services. Earlier, at COUNTRY Financial, I created a Retrieval-Augmented Generation system using Azure OpenAI and a proof of concept to migrate GitLab CI/CD runners to Azure Kubernetes, projected to save $100k annually.
+        </p>
+        <p>
+            I also contributed to cochlear-implant research at the Binaural Hearing Lab, enhancing MATLAB signal-processing modules and supporting real-time RF hardware streaming. Previously, I interned at JIFFY.ai, developing auto-generative user manuals with OpenAI’s API and a React demo page, and collaborated on the DISSCO project at UIUC to improve music-composition software with high-performance computing.
+        </p>
+        <p>
+            My projects include GeoGroove, a hackathon-winning location-based playlist generator using Spotify APIs, and a custom calendar tool that streamlines assignment tracking for UIUC students.
+        </p>
     </section>
+
 
     <section class="personal-section">
         <h2>Music in my Life</h2>
