@@ -16,6 +16,16 @@ title: Music Blog
 <section class="reviews-section">
     <h2>Album Reviews</h2>
     <div class="reviews-grid">
+        <a href="/Blog/Reviews/WestonEstate-SUPERBLOOM" class="review-card">
+            <div class="review-image">
+                <img src="/Blog/AlbumCovers/WestonEstate-SUPERBLOOM.jpg" alt="SUPERBLOOM by Weston Estate">
+            </div>
+            <div class="review-info">
+                <h3 class="album-title">SUPERBLOOM</h3>
+                <p class="artist-name">Weston Estate</p>
+                <p class="review-date">December 29th, 2025</p>
+            </div>
+        </a>
         <a href="/Blog/Reviews/DevLemons-SurfaceTension" class="review-card">
             <div class="review-image">
                 <img src="/Blog/AlbumCovers/DevLemons-SurfaceTension.jpg" alt="Surface Tension by Dev Lemons">
