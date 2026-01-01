@@ -13,7 +13,7 @@ title: Experience
         <h2>Education</h2>
         <div class="experience-item">
             <h3>University of Illinois Urbana-Champaign</h3>
-            <div class="experience-meta">Jan 2026 - Dec 2026</div>
+            <div class="experience-meta">Aug 2025 - Aug 2026</div>
             <div class="experience-role">Masters of Computer Science</div>
             <div class="experience-meta">Aug 2022 - Dec 2025</div>
             <div class="experience-role">Bachelors of Science in Computer Science + Music</div>
@@ -71,6 +71,11 @@ title: Experience
 
     <section class="section-block">
         <h2>Projects</h2>
+        <div class="experience-item">
+            <h3><a href="https://github.com/abhishekramakri/Fractured-Double" target="_blank" rel="noopener noreferrer">Fractured Double</a> | Senior Capstone</h3>
+            <div class="experience-meta">Aug - Dec 2025</div>
+            <p>Fractured Double is a real-time audio effect that reimagines traditional doubling using granular synthesis. The plugin breaks incoming audio into short grains and reconstructs them into two pitch-shifted "ghost" voices, with controlled randomness in pitch and timing to create width and texture without sounding mechanical. Built in C++ using the JUCE framework, I implemented the full DSP pipeline including circular buffering, grain scheduling, Hann windowing, and playback-rate-based pitch shifting. User-adjustable parameters for pitch depth, jitter, and wet/dry mix make the effect flexible enough for subtle vocal widening or more experimental, ambient sound design.</p>
+        </div>
         <div class="experience-item">
             <h3><a href="https://github.com/PillaiFanClub/Ladidadidaaaa" target="_blank" rel="noopener noreferrer">Arcade Karaoke</a> | AWS Award Winner @ Hack@Brown 2025</h3>
             <div class="experience-meta">Feb 2025</div>
