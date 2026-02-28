@@ -1,0 +1,69 @@
+# Album ratings — no full review needed.
+# Fields:
+#   title:  Album name
+#   artist: Artist name
+#   rating: Number out of 10 (e.g. 8.5)
+#   date:   YYYY-MM-DD format (used for sorting)
+#   cover:  Path to cover image, e.g. /Blog/AlbumCovers/Artist-Album.jpg
+
+# Note: Playboi Carti - MUSIC is excluded here because its rating is non-numeric ("Meh").
+
+- title: "SUPERBLOOM"
+  artist: "Weston Estate"
+  rating: 6.8
+  date: "2025-12-29"
+  cover: "/Blog/AlbumCovers/WestonEstate-SUPERBLOOM.jpg"
+
+- title: "Surface Tension"
+  artist: "Dev Lemons"
+  rating: 8.4
+  date: "2025-12-27"
+  cover: "/Blog/AlbumCovers/DevLemons-SurfaceTension.jpg"
+
+- title: "Carrie & Lowell"
+  artist: "Sufjan Stevens"
+  rating: 10
+  date: "2025-07-19"
+  cover: "/Blog/AlbumCovers/SufjanStevens-CarrieAndLowell.webp"
+
+- title: "Malcolm Todd"
+  artist: "Malcolm Todd"
+  rating: 7.7
+  date: "2025-04-29"
+  cover: "/Blog/AlbumCovers/MalcolmTodd-SelfTitled.jpeg"
+
+- title: "For the first time"
+  artist: "Black Country, New Road"
+  rating: 9.3
+  date: "2025-04-03"
+  cover: "/Blog/AlbumCovers/BCNR-ForTheFirstTime.webp"
+
+- title: "Ghostholding"
+  artist: "venturing"
+  rating: 8.9
+  date: "2025-02-20"
+  cover: "/Blog/AlbumCovers/Venturing-Ghostholding.jpg"
+
+- title: "Certified Lover Boy"
+  artist: "Drake"
+  rating: 4.7
+  date: "2025-02-10"
+  cover: "/Blog/AlbumCovers/Drake-CertifiedLoverBoy.jpg"
+
+- title: "Graduation"
+  artist: "Kanye West"
+  rating: 9.4
+  date: "2024-01-26"
+  cover: "/Blog/AlbumCovers/KanyeWest-Graduation.jpg"
+
+- title: "Deathconsciousness"
+  artist: "Have A Nice Life"
+  rating: 8.4
+  date: "2024-01-17"
+  cover: "/Blog/AlbumCovers/HaveANiceLife-Deathconsciousness.jpg"
+
+- title: "AM"
+  artist: "Arctic Monkeys"
+  rating: 7.9
+  date: "2024-01-09"
+  cover: "/Blog/AlbumCovers/ArcticMonkeys-AM.jpg"

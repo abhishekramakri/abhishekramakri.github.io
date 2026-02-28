@@ -161,3 +161,80 @@ title: Music Blog
         </a> -->
     </div>
 </section>
+
+<section class="ratings-section">
+    <h2>Quick Ratings</h2>
+    <p class="ratings-description">Every album I've rated, sorted by date or score.</p>
+
+    {% if site.data.ratings and site.data.ratings.size > 0 %}
+    {% assign ratings_by_date = site.data.ratings | sort: "date" | reverse %}
+    {% assign ratings_by_score = site.data.ratings | sort: "rating" | reverse %}
+
+    <div class="ratings-toggle">
+        <button class="toggle-btn active" onclick="showRatings('date', this)">Most Recently Rated</button>
+        <button class="toggle-btn" onclick="showRatings('rating', this)">Top Rated</button>
+    </div>
+
+    <div id="ratings-by-date" class="ratings-list">
+        <table class="ratings-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Album</th>
+                    <th>Artist</th>
+                    <th>Rating</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for album in ratings_by_date %}
+                <tr>
+                    <td class="table-cover"><img src="{{ album.cover }}" alt="{{ album.title }}"></td>
+                    <td class="table-album">{{ album.title }}</td>
+                    <td class="table-artist">{{ album.artist }}</td>
+                    <td class="table-rating"><span class="table-rating-badge">{{ album.rating }}/10</span></td>
+                    <td class="table-date">{{ album.date | date: "%b %-d, %Y" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div id="ratings-by-rating" class="ratings-list" style="display:none">
+        <table class="ratings-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Album</th>
+                    <th>Artist</th>
+                    <th>Rating</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for album in ratings_by_score %}
+                <tr>
+                    <td class="table-cover"><img src="{{ album.cover }}" alt="{{ album.title }}"></td>
+                    <td class="table-album">{{ album.title }}</td>
+                    <td class="table-artist">{{ album.artist }}</td>
+                    <td class="table-rating"><span class="table-rating-badge">{{ album.rating }}/10</span></td>
+                    <td class="table-date">{{ album.date | date: "%b %-d, %Y" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+    function showRatings(type, btn) {
+        document.getElementById('ratings-by-date').style.display = type === 'date' ? 'block' : 'none';
+        document.getElementById('ratings-by-rating').style.display = type === 'rating' ? 'block' : 'none';
+        document.querySelectorAll('.toggle-btn').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+    }
+    </script>
+
+    {% else %}
+    <p class="ratings-empty">No ratings yet — check back soon!</p>
+    {% endif %}
+</section>

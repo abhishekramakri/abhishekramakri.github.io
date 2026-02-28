@@ -524,3 +524,131 @@ p {
         font-size: 1.1rem;
     }
 }
+
+/* Quick Ratings Section */
+.ratings-section {
+    margin-top: 5rem;
+    padding-top: 3rem;
+    border-top: 2px solid var(--gray-light);
+}
+
+.ratings-section h2 {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.ratings-description {
+    font-size: 1rem;
+    color: var(--gray-medium);
+    margin-bottom: 2.5rem;
+}
+
+.ratings-empty {
+    color: var(--gray-medium);
+    font-style: italic;
+}
+
+/* Ratings Toggle */
+.ratings-toggle {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--gray-light);
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    padding: 0.65rem 1.25rem;
+    font-family: var(--primary-font);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--gray-medium);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.toggle-btn:hover {
+    color: var(--text-color);
+}
+
+.toggle-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+/* Ratings Table */
+.ratings-list {
+    overflow-x: auto;
+}
+
+.ratings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.ratings-table thead th {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+    color: var(--gray-medium);
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid var(--gray-light);
+    text-align: left;
+}
+
+.ratings-table tbody tr {
+    border-bottom: 1px solid var(--gray-light);
+    transition: background-color 0.15s ease;
+}
+
+.ratings-table tbody tr:hover {
+    background-color: var(--gray-light);
+}
+
+.ratings-table tbody td {
+    padding: 0.85rem 1rem;
+    color: var(--gray-dark);
+}
+
+.table-cover {
+    width: 48px;
+    padding: 0.4rem 0.5rem 0.4rem 1rem !important;
+}
+
+.table-cover img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 3px;
+    display: block;
+}
+
+.table-album {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    color: var(--text-color) !important;
+}
+
+.table-rating-badge {
+    background-color: var(--accent);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .table-cover,
+    .ratings-table thead th:first-child {
+        display: none;
+    }
+}
