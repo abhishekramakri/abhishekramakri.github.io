@@ -83,7 +83,7 @@ title: Music Blog
             <div class="review-info">
                 <h3 class="album-title">Ghostholding</h3>
                 <p class="artist-name">venturing (Jane Remover)</p>
-                <p class="review-date">February 21, 2024</p>
+                <p class="review-date">February 21, 2025</p>
             </div>
         </a>
         <a href="/Blog/Reviews/Drake-CertifiedLoverBoy" class="review-card">
@@ -93,7 +93,7 @@ title: Music Blog
             <div class="review-info">
                 <h3 class="album-title">Certified Lover Boy</h3>
                 <p class="artist-name">Drake</p>
-                <p class="review-date">February 10, 2024</p>
+                <p class="review-date">February 10, 2025</p>
             </div>
         </a>
         <a href="/Blog/Reviews/KanyeWest-Graduation" class="review-card">
@@ -103,7 +103,7 @@ title: Music Blog
             <div class="review-info">
                 <h3 class="album-title">Graduation</h3>
                 <p class="artist-name">Kanye West</p>
-                <p class="review-date">January 26, 2024</p>
+                <p class="review-date">January 26, 2025</p>
             </div>
         </a>
         <a href="/Blog/Reviews/HaveANiceLife-Deathconsciousness" class="review-card">
@@ -113,7 +113,7 @@ title: Music Blog
             <div class="review-info">
                 <h3 class="album-title">Deathconsciousness</h3>
                 <p class="artist-name">Have A Nice Life</p>
-                <p class="review-date">January 17, 2024</p>
+                <p class="review-date">January 17, 2025</p>
             </div>
         </a>
         <a href="/Blog/Reviews/ArcticMonkeys-AM" class="review-card">
@@ -123,7 +123,7 @@ title: Music Blog
             <div class="review-info">
                 <h3 class="album-title">AM</h3>
                 <p class="artist-name">Arctic Monkeys</p>
-                <p class="review-date">January 9, 2024</p>
+                <p class="review-date">January 9, 2025</p>
             </div>
         </a>
 

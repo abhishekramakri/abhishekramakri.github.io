@@ -6,7 +6,7 @@ album: "Graduation"
 rating: 9.4
 genre: "Pop Rap"
 release_date: "September 11, 2007"
-review_date: "January 26, 2024"
+review_date: "January 26, 2025"
 cover_image: "/Blog/AlbumCovers/KanyeWest-Graduation.jpg"
 ---
 
