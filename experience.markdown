@@ -5,7 +5,7 @@ title: Experience
 
 <div class="article-header">
     <h1>Experience</h1>
-    <p class="resume-link">If you'd like to know more about my Experience, feel free to check out my <a href="https://drive.google.com/file/d/1dLKLbUjDax7loHxovs8UYiTG03lsSGef/view?usp=sharing" class="inline-link" target="_blank">resume</a>!</p>
+    <p class="resume-link">If you'd like to know more about my Experience, feel free to check out my <a href="https://drive.google.com/file/d/17_OcWPUZzgXXDw72a5cCwfLD0KBlBnYb/view?usp=sharing" class="inline-link" target="_blank">resume</a>!</p>
 </div>
 
 <div class="article-content">
@@ -13,16 +13,28 @@ title: Experience
         <h2>Education</h2>
         <div class="experience-item">
             <h3>University of Illinois Urbana-Champaign</h3>
-            <div class="experience-meta">Aug 2025 - Aug 2026</div>
+            <div class="experience-meta">Jan 2026 - Dec 2026</div>
             <div class="experience-role">Masters of Computer Science</div>
+            <p>Coursework: Immersive Computing Systems, Multimedia Systems, Machine Learning for Signal Processing,
+Distributed Systems, Virtual Reality</p>
             <div class="experience-meta">Aug 2022 - Dec 2025</div>
             <div class="experience-role">Bachelors of Science in Computer Science + Music</div>
-            <p>Relevant Coursework: Artificial Intelligence, Algorithms, Computer Architecture, Data Structures, Audio Processing Technology, Computation and Music, Electroacoustics</p>
+            <p>Coursework: Artificial Intelligence, Algorithms, Computer Architecture, Data Structures, Audio Processing Technology, Computation and Music, Electroacoustics</p>
         </div>
     </section>
 
     <section class="section-block">
         <h2>Work Experience</h2>
+
+        <div class="experience-item">
+
+            <h3>Shure</h3>
+            <div class="experience-meta">May 2026 – Aug 2026</div>
+            <div class="experience-role">Cloud Software Developer Intern</div>
+            <p>
+                Work in progress!
+            </p>
+        </div>
 
         <div class="experience-item">
             <h3>Amazon</h3>
@@ -58,14 +70,7 @@ title: Experience
             <h3>National Center for Supercomputing Applications</h3>
             <div class="experience-meta">Aug 2024 - Mar 2025</div>
             <div class="experience-role">Undergraduate Research Assistant</div>
-            <p>I’ve been collaborating on the DISSCO project under Dr. Sever Tipei, focusing on enhancing software for musical composition, sound synthesis, and notation. Using C++ and high-performance computing, I’ve worked on improving the system's capabilities and implementing statistically-driven applications of musical features within the composition module.</p>
-        </div>
-
-        <div class="experience-item">
-            <h3>JIFFY.ai</h3>
-            <div class="experience-meta">May 2023 - Aug 2023</div>
-            <div class="experience-role">Software Developer Intern</div>
-            <p>During my time at JIFFY.ai, I worked on creating auto-generative user manuals by leveraging OpenAI’s and JIFFY.ai’s APIs to process input data. Additionally, I built a React demo page to showcase the platform’s various features, providing a user-friendly interface to highlight its capabilities. This work combined automation and design, offering a dynamic way to present and utilize JIFFY.ai’s functionality.</p>
+            <p>I collaborated on the DISSCO project under Dr. Sever Tipei, focusing on enhancing software for musical composition, sound synthesis, and notation. Using C++ and high-performance computing, I’ve worked on improving the system's capabilities and implementing statistically-driven applications of musical features within the composition module.</p>
         </div>
     </section>
 
@@ -75,6 +80,16 @@ title: Experience
             <h3><a href="https://github.com/abhishekramakri/Fractured-Double" target="_blank" rel="noopener noreferrer">Fractured Double</a> | Senior Capstone</h3>
             <div class="experience-meta">Aug - Dec 2025</div>
             <p>Fractured Double is a real-time audio effect that reimagines traditional doubling using granular synthesis. The plugin breaks incoming audio into short grains and reconstructs them into two pitch-shifted "ghost" voices, with controlled randomness in pitch and timing to create width and texture without sounding mechanical. Built in C++ using the JUCE framework, I implemented the full DSP pipeline including circular buffering, grain scheduling, Hann windowing, and playback-rate-based pitch shifting. User-adjustable parameters for pitch depth, jitter, and wet/dry mix make the effect flexible enough for subtle vocal widening or more experimental, ambient sound design.</p>
+        </div>
+        <div class="experience-item">
+            <h3><a href="https://github.com/abhishekramakri/CS-534-Research" target="_blank" rel="noopener noreferrer">Offloaded Spatial Audio Rendering for XR</a> | CS 534: Immersive Computing Systems</h3>
+            <div class="experience-meta">Jan - May 2026</div>
+            <p>Studied the tradeoffs of offloading a scene-aware spatial audio pipeline for XR headsets to a nearby GPU server. The pipeline estimates room geometry, classifies surface materials using semantic segmentation, and synthesizes a Room Impulse Response (RIR) for binaural rendering. Profiled four offloading configurations across two device platforms (MacBook M1 Air and NVIDIA Jetson Orin AGX) and a GPU workstation, measuring per-stage latency, network bandwidth, and audio quality via T60 comparison against ScanNet ground-truth RIRs. Found that material segmentation dominates device-side cost and that offloading replaces compute overhead with network overhead on capable hardware. On the Jetson, where local segmentation takes 530ms, offloading reduced update latency by 2.7x and board power by 25%.</p>
+        </div>
+        <div class="experience-item">
+            <h3><a href="https://github.com/abhishekramakri/CS-537-Research" target="_blank" rel="noopener noreferrer">Bandwidth-Efficient Keyword Spotting</a> | CS 537: Multimedia Systems</h3>
+            <div class="experience-meta">Jan - May 2026</div>
+            <p>Designed and evaluated five feature-level transmission strategies for a split-inference keyword spotting pipeline, where audio is captured on a constrained edge device and classified on a remote server. Strategies ranged from raw PCM audio to a jointly-trained neural encoder producing compact learned embeddings. Deployed all five approaches end-to-end over a real TCP network on CloudLab nodes and benchmarked them across accuracy, bandwidth, round-trip latency, and compute cost (MFLOPs) on both device and server using the Google Speech Commands v2 dataset. Results showed no single strategy dominates across all deployment constraints, providing practical guidance for engineers navigating the bandwidth-latency-accuracy tradeoff in IoT voice systems.</p>
         </div>
         <div class="experience-item">
             <h3><a href="https://github.com/PillaiFanClub/Ladidadidaaaa" target="_blank" rel="noopener noreferrer">Arcade Karaoke</a> | AWS Award Winner @ Hack@Brown 2025</h3>

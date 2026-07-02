@@ -12,23 +12,22 @@ title: Abhi Ramakrishnan
     <section class="professional-section">
         <h2>Professional Journey</h2>
         <p>
-            I recently interned at Amazon, where I built an end-to-end ML model testing system on SageMaker and designed a secure cross-account deployment workflow with AWS services. Earlier, at COUNTRY Financial, I created a Retrieval-Augmented Generation system using Azure OpenAI and a proof of concept to migrate GitLab CI/CD runners to Azure Kubernetes, projected to save $100k annually.
+            I'm currently interning at Shure, where I'm developing serverless cloud applications on AWS to manage Shure audio devices. Last summer, I interned at Amazon, where I built an end-to-end ML model testing system on SageMaker and designed a secure cross-account deployment workflow with AWS services like S3, DynamoDB, and Step Functions.
         </p>
         <p>
-            I also contributed to cochlear-implant research at the Binaural Hearing Lab, enhancing MATLAB signal-processing modules and supporting real-time RF hardware streaming. Previously, I interned at JIFFY.ai, developing auto-generative user manuals with OpenAI’s API and a React demo page, and collaborated on the DISSCO project at UIUC to improve music-composition software with high-performance computing.
+            I've also contributed to cochlear-implant research at the Binaural Hearing Lab, optimizing MATLAB signal-processing modules like gain control and FFT filterbanks for a real-time mobile hardware platform. Earlier, at COUNTRY Financial, I built a Retrieval-Augmented Generation system using Azure OpenAI and a proof of concept to migrate GitLab CI/CD runners to Azure Kubernetes, projected to save $100k annually.
         </p>
         <p>
-            My projects include GeoGroove, a hackathon-winning location-based playlist generator using Spotify APIs, and a custom calendar tool that streamlines assignment tracking for UIUC students.
+            My recent projects sit at the intersection of audio and systems engineering: Offloaded Spatial Audio Rendering, a scene-aware spatial audio pipeline using SegFormer segmentation and Steam Audio binaural rendering that achieved a 2.7x latency improvement through edge offloading, and Fractured Double, a granular-doubling VST3 plugin built in JUCE/C++ for my senior capstone.
         </p>
     </section>
 
 
     <section class="personal-section">
         <h2>Music in my Life</h2>
-        <p>Music has always been a big part of my life. I played the cello for over ten years, performed with the Elgin Youth Symphony Orchestra in high school, and lately, I’ve been learning acoustic guitar and piano. I love making music and listening to it, and understanding the technical side, like digital signal processing, just makes it even cooler.</p>
+        <p>Music has always been a big part of my life. I played the cello for over ten years, performed with the Elgin Youth Symphony Orchestra in high school, and lately I've been learning guitar and piano. I love making and listening to music, and understanding the technical side, like digital signal processing, just makes it even cooler. What I love most about music is how many different ways it can make you feel, and how every genre opens up some new way of experiencing that.</p>
 
-        <p>What I love most about music is how it can completely change the way you feel and express yourself. There are so many genres and subgenres that seem hard to get into at first, but once you do, they open up a whole new way of experiencing emotions and ideas. Back in high school, I mostly listened to rap-adjacent stuff and couldn’t really imagine branching out, but now I’m into everything from folk to shoegaze. No matter what, I’m always finding new ways music hits me.
-</p>
+        <p>I make a lot of different kinds of music in my free time, whether that's recording guitar covers or producing beats in FL Studio. This past year I was on the board of the Hip Hop Collective at UIUC. A lot of the old execs had graduated, so a big part of it was just keeping the program going with a new group of people. We ended up steering the club's sound toward more of a Digicore style, which is pretty close to what I like producing on my own, and it was cool getting to see that direction take hold with a whole new group.</p>
     </section>
 
     <section class="outro-section">
