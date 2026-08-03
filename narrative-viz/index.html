@@ -1,0 +1,55 @@
+---
+layout: default
+title: "The Turn"
+extra_css:
+  - /narrative-viz/style.css
+extra_js:
+  - /narrative-viz/vendor/d3.v7.min.js
+  - /narrative-viz/vendor/d3-annotation.min.js
+  - /narrative-viz/data.js
+  - /narrative-viz/script.js
+---
+
+<div class="article-header nv-masthead">
+    <p class="nv-eyebrow">A narrative data visualization</p>
+    <h1>The Turn</h1>
+    <p class="nv-subhead">How Baltimore brought homicides to a 50-year low</p>
+</div>
+
+<div class="nv-app">
+
+  <div class="nv-scene-frame">
+    <div class="nv-scene-head">
+      <p class="nv-scene-kicker" id="scene-kicker">Scene 1 of 4</p>
+      <h2 id="scene-title">A City in Crisis</h2>
+      <p class="nv-scene-dek" id="scene-dek"></p>
+    </div>
+
+    <div class="nv-chart-wrap">
+      <svg id="scene-svg" viewBox="0 0 960 540" preserveAspectRatio="xMidYMid meet" aria-labelledby="scene-title"></svg>
+      <div id="tooltip" class="nv-tooltip" hidden></div>
+    </div>
+
+    <div id="scene-controls" class="nv-scene-controls" hidden></div>
+
+    <p class="nv-scene-caption" id="scene-caption"></p>
+  </div>
+
+  <nav class="nv-scene-nav" aria-label="Scene navigation">
+    <button id="btn-prev" class="nv-nav-btn" type="button" aria-label="Previous scene">&larr; Back</button>
+    <div id="scene-dots" class="nv-scene-dots" role="tablist" aria-label="Scenes"></div>
+    <button id="btn-next" class="nv-nav-btn nv-nav-btn--primary" type="button" aria-label="Next scene">Next &rarr;</button>
+  </nav>
+
+</div>
+
+<section class="nv-sources">
+  <h3>Sources</h3>
+  <ol>
+    <li>Wikipedia, <em>Crime in Baltimore</em>, annual Baltimore Police Department homicide totals, 2010&ndash;2025.</li>
+    <li>Office of the Mayor, City of Baltimore, <em>Joint Statement on Historic Public Safety Progress in 2025</em> (Jan. 1, 2026).</li>
+    <li>Johns Hopkins Bloomberg School of Public Health, Center for Gun Violence Solutions, <em>New Report Finds that Baltimore's Community Violence Intervention Program Safe Streets Reduced Gun Violence</em> (2023).</li>
+    <li>University of Pennsylvania Crime and Justice Policy Lab, <em>Analyzing the Impact of Baltimore's Group Violence Reduction Strategy in the Western District</em> (2024); reported by WYPR, Feb. 8, 2024.</li>
+  </ol>
+  <p class="nv-credit">Built with D3.js and d3-annotation for a course assignment on narrative visualization.</p>
+</section>

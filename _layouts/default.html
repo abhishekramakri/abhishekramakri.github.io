@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    {% if page.extra_css %}{% for href in page.extra_css %}
+    <link rel="stylesheet" href="{{ href | relative_url }}">
+    {% endfor %}{% endif %}
 </head>
 <body>
     <header class="site-header">
@@ -45,5 +48,9 @@
             </div>
         </div>
     </footer>
+
+    {% if page.extra_js %}{% for src in page.extra_js %}
+    <script src="{{ src | relative_url }}"></script>
+    {% endfor %}{% endif %}
 </body>
 </html>

@@ -1,0 +1,312 @@
+/* narrative-viz/style.css
+   Extends the site's own design tokens (assets/main.css: --primary-font,
+   --secondary-font, --text-color, --background, --accent, --gray-light,
+   --gray-medium, --gray-dark) rather than defining a separate look.
+   Only chart-data colors are new, since main.css has no equivalent. */
+
+:root {
+  --nv-crisis: #d03b3b;
+  --nv-decline: #0ca30c;
+  --nv-decline-text: #1a7a1a;
+  --nv-neutral: #9a9a9a;
+  --nv-blue-1: #2a78d6;
+  --nv-blue-2: #6da7ec;
+  --nv-blue-3: #b7d3f6;
+}
+
+.nv-masthead {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.nv-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--gray-medium);
+  margin: 0 0 0.6rem;
+}
+.nv-subhead {
+  font-family: var(--secondary-font);
+  font-size: 1.15rem;
+  color: var(--gray-dark);
+  margin: 0;
+}
+
+.nv-app {
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+.nv-scene-frame {
+  background: #ffffff;
+  border: 1px solid var(--gray-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  padding: 2rem 2rem 1.5rem;
+}
+
+.nv-scene-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 0.4rem;
+}
+.nv-scene-head h2 {
+  font-family: var(--secondary-font);
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+.nv-scene-dek {
+  margin: 0 0 1.25rem;
+  color: var(--gray-dark);
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 62ch;
+}
+
+.nv-chart-wrap {
+  position: relative;
+}
+#scene-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nv-scene-caption {
+  margin: 1rem 0.1rem 0.2rem;
+  color: var(--gray-medium);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 68ch;
+}
+
+/* ---- axes & gridlines ---- */
+.axis path, .axis line {
+  stroke: #d8d8d8;
+}
+.axis text {
+  fill: var(--gray-medium);
+  font-family: var(--primary-font);
+  font-size: 12px;
+}
+.gridline line {
+  stroke: #eeeeee;
+  shape-rendering: crispEdges;
+}
+.gridline path { display: none; }
+
+/* ---- chart marks ---- */
+.line-path {
+  fill: none;
+  stroke-width: 2.5px;
+}
+.line-path.era-neutral { stroke: var(--nv-neutral); }
+.line-path.era-crisis { stroke: var(--nv-crisis); }
+.line-path.era-decline { stroke: var(--nv-decline); }
+
+.dot {
+  stroke: #ffffff;
+  stroke-width: 1.5px;
+}
+.dot.era-neutral { fill: var(--nv-neutral); }
+.dot.era-crisis { fill: var(--nv-crisis); }
+.dot.era-decline { fill: var(--nv-decline); }
+.dot.hoverable { cursor: pointer; }
+.dot.hoverable:hover, .dot.is-active { stroke: var(--text-color); stroke-width: 2px; }
+
+.era-legend {
+  font-family: var(--primary-font);
+  font-size: 12.5px;
+  fill: var(--gray-dark);
+}
+.era-legend .swatch-neutral { fill: var(--nv-neutral); }
+.era-legend .swatch-crisis { fill: var(--nv-crisis); }
+.era-legend .swatch-decline { fill: var(--nv-decline); }
+
+/* ---- annotation template (shared d3-annotation + custom brackets) ---- */
+.annotation-group .annotation-connector {
+  stroke: #9a9a9a;
+  stroke-width: 1.25px;
+  fill: none;
+}
+.annotation-group .annotation-subject {
+  stroke: #9a9a9a;
+  stroke-width: 1.25px;
+  fill: none;
+}
+.annotation-group .annotation-note-title {
+  fill: var(--text-color) !important;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 13.5px;
+}
+.annotation-group .annotation-note-label {
+  fill: var(--gray-dark) !important;
+  font-family: var(--primary-font);
+  font-size: 12.5px;
+}
+.annotation-group .annotation-note-bg { fill: none; }
+
+.bracket-annotation .bracket-line { stroke: #9a9a9a; stroke-width: 1.25px; fill: none; }
+.bracket-annotation text { fill: var(--gray-dark); font-family: var(--primary-font); font-size: 12.5px; }
+.bracket-annotation .bracket-title { fill: var(--text-color); font-weight: 700; font-size: 13.5px; }
+
+.stat-card rect { fill: #faf9f7; stroke: var(--gray-light); }
+.stat-card .stat-value { font-family: var(--primary-font); font-weight: 700; font-size: 22px; fill: var(--text-color); }
+.stat-card .stat-value.good { fill: var(--nv-decline-text); }
+.stat-card .stat-label { fill: var(--gray-medium); font-family: var(--primary-font); font-size: 12px; }
+
+/* ---- bars (scene 3) ---- */
+.bar-label { fill: var(--text-color); font-family: var(--primary-font); font-size: 13px; font-weight: 600; }
+.bar-count { fill: var(--gray-dark); font-family: var(--primary-font); font-size: 12.5px; }
+.bar-sitelist { fill: var(--gray-medium); font-family: var(--primary-font); font-size: 11.5px; }
+
+/* ---- timeline (scene 4, program view) ---- */
+.timeline-bar { cursor: pointer; }
+.timeline-bar:hover, .timeline-bar.is-active { filter: brightness(1.1); }
+.timeline-label { fill: var(--text-color); font-family: var(--primary-font); font-size: 12.5px; }
+.timeline-sub { fill: var(--gray-medium); font-family: var(--primary-font); font-size: 11px; }
+
+/* ---- tooltip ---- */
+.nv-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: #ffffff;
+  border: 1px solid var(--gray-light);
+  border-radius: 6px;
+  padding: 0.65rem 0.8rem;
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--text-color);
+  max-width: 260px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+.nv-tt-title {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.nv-tt-body {
+  color: var(--gray-medium);
+}
+
+/* ---- scene controls (scene 4 toggle), styled after the site's existing
+   ratings-toggle tab pattern in assets/main.css ---- */
+.nv-scene-controls {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin: -0.25rem 0 1.25rem;
+  border-bottom: 2px solid var(--gray-light);
+  flex-wrap: wrap;
+}
+.nv-toggle-btn {
+  background: none;
+  border: none;
+  padding: 0.65rem 1.1rem;
+  font-family: var(--primary-font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gray-medium);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.nv-toggle-btn:hover {
+  color: var(--text-color);
+}
+.nv-toggle-btn.is-active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.nv-hint-pill {
+  font-size: 0.8rem;
+  color: var(--gray-medium);
+  margin-left: auto;
+  align-self: center;
+  padding-bottom: 0.65rem;
+}
+
+/* ---- nav ---- */
+.nv-scene-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+.nv-nav-btn {
+  border: 1px solid var(--gray-light);
+  background: #ffffff;
+  color: var(--text-color);
+  padding: 0.6rem 1.15rem;
+  border-radius: 4px;
+  font-family: var(--primary-font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.nv-nav-btn:hover:not(:disabled) {
+  border-color: var(--gray-medium);
+}
+.nv-nav-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.nv-nav-btn--primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+.nv-nav-btn--primary:hover:not(:disabled) {
+  border-color: var(--accent);
+  opacity: 0.9;
+}
+.nv-scene-dots {
+  display: flex;
+  gap: 0.5rem;
+}
+.nv-scene-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--gray-light);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.nv-scene-dot.is-active {
+  background: var(--accent);
+  transform: scale(1.25);
+}
+
+.nv-sources {
+  max-width: 900px;
+  margin: 3rem auto;
+  color: var(--gray-medium);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+.nv-sources h3 {
+  font-family: var(--secondary-font);
+  color: var(--gray-dark);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+.nv-sources ol { padding-left: 1.25rem; }
+.nv-credit { margin-top: 0.75rem; }
+
+@media (max-width: 620px) {
+  .nv-scene-frame { padding: 1.5rem 1.1rem 1.1rem; }
+  .nv-scene-nav { flex-wrap: wrap; }
+  .nv-hint-pill { margin-left: 0; }
+}
