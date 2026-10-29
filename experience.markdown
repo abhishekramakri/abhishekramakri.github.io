@@ -73,7 +73,7 @@ title: Experience
         <div class="experience-item">
             <h3>National Center for Supercomputing Applications</h3>
             <div class="experience-meta">Aug 2024 - Mar 2025</div>
-            <div class="experience-role">Research Assistant – DISSCO</div>
+            <div class="experience-role">Research Assistant</div>
             <p>I worked on DISSCO, Dr. Sever Tipei's C++ platform for algorithmic composition, sound synthesis, and notation. I diagnosed and fixed critical defects in the system, restoring core functionality across about a third of the codebase.</p>
         </div>
 
@@ -90,7 +90,7 @@ title: Experience
         <div class="experience-item">
             <h3><a href="https://github.com/abhishekramakri/Citymesh" target="_blank" rel="noopener noreferrer">PayOff</a> | Hack@Brown 2026</h3>
             <div class="experience-meta">Feb 2026</div>
-            <p>PayOff is an iOS app that lets phones pay each other with zero internet connectivity. I built a custom peer-to-peer transport on Apple's Network framework, with Bonjour-based peer discovery, ping/pong heartbeat failure detection, and automatic reconnection of dropped peers. Payments are relay-safe: each one carries buyer and seller Ed25519 signatures and is wrapped in hybrid AES-GCM/X25519 envelope encryption with per-transaction forward secrecy, so other phones can pass a payment along without reading or tampering with it. Once connectivity returns, an AWS Lambda backend authenticated through AWS Cognito decrypts the envelope via AWS KMS, verifies both signatures, and settles the payment through Stripe. Raw card data never touches the device, since only Stripe-tokenized payment methods are stored in the iOS Keychain. I presented PayOff to 20 industry professionals.</p>
+            <p>PayOff is an iOS app that lets phones pay each other with zero internet connectivity. I built a custom peer-to-peer transport on Apple's Network framework, with Bonjour-based peer discovery, ping/pong heartbeat failure detection, and automatic reconnection of dropped peers. Payments are relay-safe. Each one carries buyer and seller Ed25519 signatures and is wrapped in hybrid AES-GCM/X25519 envelope encryption with per-transaction forward secrecy, so other phones can pass a payment along without reading or tampering with it. Once connectivity returns, an AWS Lambda backend authenticated through AWS Cognito decrypts the envelope via AWS KMS, verifies both signatures, and settles the payment through Stripe. Raw card data never touches the device, since only Stripe-tokenized payment methods are stored in the iOS Keychain. I presented PayOff to 20 industry professionals.</p>
         </div>
         <div class="experience-item">
             <h3><a href="https://github.com/abhishekramakri/Soundscape" target="_blank" rel="noopener noreferrer">Soundscape</a> | Swift Student Challenge 2026</h3>
@@ -110,7 +110,7 @@ title: Experience
         <div class="experience-item">
             <h3><a href="https://github.com/abhishekramakri/CS-417-Final" target="_blank" rel="noopener noreferrer">Beavergeance</a> | CS 417: Virtual Reality</h3>
             <div class="experience-meta">Jan - May 2026</div>
-            <p>Beavergeance is a VR forest-defense game for Meta Quest 3, built in Unity with hand-tracked interaction through the XR Interaction Toolkit. It combines stealth-based enemy AI with resource management: enemies spot the player through vision cones built from distance- and angle-based line-of-sight checks, with near-miss audio and particle feedback driving the stealth gameplay. I also built a wave-based enemy spawning system and a damageable moving hazard with spawn immunity, wiring both into a forest-integrity health system with haptic feedback.</p>
+            <p>Beavergeance is a VR forest-defense game for Meta Quest 3, built in Unity with hand-tracked interaction through the XR Interaction Toolkit. It combines stealth-based enemy AI with resource management. Enemies spot the player through vision cones built from distance- and angle-based line-of-sight checks, with near-miss audio and particle feedback driving the stealth gameplay. I also built a wave-based enemy spawning system and a damageable moving hazard with spawn immunity, wiring both into a forest-integrity health system with haptic feedback.</p>
         </div>
         <div class="experience-item">
             <h3>Distributed Systems Stack | CS 425: Distributed Systems</h3>
@@ -120,17 +120,17 @@ title: Experience
         <div class="experience-item">
             <h3><a href="https://github.com/abhishekramakri/Fractured-Double" target="_blank" rel="noopener noreferrer">Fractured Double</a> | Senior Capstone</h3>
             <div class="experience-meta">Aug - Dec 2025</div>
-            <p>Fractured Double is a real-time audio effect that reimagines traditional doubling using granular synthesis. The plugin breaks incoming audio into short grains and reconstructs them into two pitch-shifted "ghost" voices, with controlled randomness in pitch and timing to create width and texture without sounding mechanical. I prototyped the effect in SuperCollider, then built the core as a VST3 plugin in C++ using the JUCE framework, implementing the full DSP pipeline: a stereo circular buffer, 40 ms Hann-windowed grains at 50% overlap, paired ±1.2-semitone voices via playback-rate-based pitch shifting, and ±30% randomized grain spacing to avoid periodic artifacts. User-adjustable parameters for pitch depth, jitter, and wet/dry mix make the effect flexible enough for subtle vocal widening or more experimental, ambient sound design.</p>
+            <p>Fractured Double is a real-time audio effect that reimagines traditional doubling using granular synthesis. The plugin breaks incoming audio into short grains and reconstructs them into two pitch-shifted "ghost" voices, with controlled randomness in pitch and timing to create width and texture without sounding mechanical. I prototyped the effect in SuperCollider, then built the core as a VST3 plugin in C++ using the JUCE framework. I implemented the full DSP pipeline, which reads 40 ms Hann-windowed grains at 50% overlap from a stereo circular buffer and turns them into paired ±1.2-semitone voices through playback-rate-based pitch shifting. Grain spacing is randomized by ±30% to avoid periodic artifacts. User-adjustable parameters for pitch depth, jitter, and wet/dry mix make the effect flexible enough for subtle vocal widening or more experimental, ambient sound design.</p>
         </div>
         <div class="experience-item">
             <h3><a href="https://github.com/PillaiFanClub/Ladidadidaaaa" target="_blank" rel="noopener noreferrer">Arcade Karaoke</a> | AWS Award Winner @ Hack@Brown 2025</h3>
             <div class="experience-meta">Feb - May 2025</div>
-            <p>As part of a collaborative project, I developed a multiplayer web-based karaoke game that allows players to join remotely using their phones. I implemented post-performance pitch analysis using Dynamic Time Warping (DTW) and librosa for pitch detection, along with a caching system to pre-process reference vocals for faster analysis. Built with React, Express, Python, and WebSockets, the game ensures seamless host-player interactions and real-time audio analysis. Later, for CS 448: Audio Computing Lab, I rebuilt the scorer with a hand-written STFT, harmonic-product-spectrum pitch tracking with median smoothing, octave-independent pitch in cents, and DTW alignment against the reference vocal.</p>
+            <p>As part of a collaborative project, I developed a multiplayer web-based karaoke game that allows players to join remotely using their phones. I implemented post-performance pitch analysis using Dynamic Time Warping (DTW) and librosa for pitch detection, along with a caching system to pre-process reference vocals for faster analysis. Built with React, Express, Python, and WebSockets, the game ensures seamless host-player interactions and real-time audio analysis. Later, in CS 448 (Audio Computing Lab), I rebuilt the scorer with a hand-written STFT, harmonic-product-spectrum pitch tracking with median smoothing, octave-independent pitch in cents, and DTW alignment against the reference vocal.</p>
         </div>
         <div class="experience-item">
             <h3>Pure Data Externals in C | MUS 205: Computation and Music II</h3>
             <div class="experience-meta">Aug - Dec 2024</div>
-            <p>I extended Pure Data with externals written in C: a resonant biquad low-pass filter with cutoff and resonance controls for a buffer-editor object, a signal-rate phase-modulation inlet with input validation for a wavetable oscillator, and new variants of Xenakis-style dynamic stochastic synthesis using Cauchy-distributed and second-order random walks.</p>
+            <p>I extended Pure Data with externals written in C. I added a resonant biquad low-pass filter with cutoff and resonance controls to a buffer-editor object, and a signal-rate phase-modulation inlet with input validation to a wavetable oscillator. I also extended Xenakis-style dynamic stochastic synthesis with Cauchy-distributed and second-order random walks.</p>
         </div>
         <div class="experience-item">
             <h3><a href="https://github.com/ekcom/GeoGroove" target="_blank" rel="noopener noreferrer">GeoGroove</a> | Skillful Execution Award @ UIUC Research Park Hackathon 2024</h3>

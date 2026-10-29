@@ -12,13 +12,13 @@ title: Abhi Ramakrishnan
     <section class="professional-section">
         <h2>Professional Journey</h2>
         <p>
-            I'm currently interning at Amazon in San Diego, building a system that turns red-team findings against Amazon's fraud-detection models into live production monitoring. Before that, I spent the summer at Shure, where I automated AWS CloudFormation deployments for the nine serverless microservices behind Shure's cloud account management, cutting deployment time by 80%. This is my second time at Amazon: in summer 2025, in Seattle, I built an end-to-end ML model testing system on SageMaker and a cross-account deployment workflow with AWS services like S3, DynamoDB, and Step Functions.
+            I'm currently interning at Amazon in San Diego, building a system that turns red-team findings against Amazon's fraud-detection models into live production monitoring. Before that, I spent the summer at Shure, where I automated AWS CloudFormation deployments for the nine serverless microservices behind Shure's cloud account management, cutting deployment time by 80%. This is my second time at Amazon. In summer 2025, I interned in Seattle, where I built an end-to-end ML model testing system on SageMaker and a cross-account deployment workflow with AWS services like S3, DynamoDB, and Step Functions.
         </p>
         <p>
             I've also contributed to cochlear-implant research at the Binaural Hearing Lab, adapting the MATLAB signal-processing code of a mobile cochlear-implant research platform, and to DISSCO, an algorithmic composition platform at NCSA. Earlier, at COUNTRY Financial, I built a Retrieval-Augmented Generation system using Azure OpenAI and a proof of concept to migrate GitLab CI/CD runners to Azure Kubernetes, projected to save $100k annually.
         </p>
         <p>
-            My recent projects sit at the intersection of audio and systems engineering: Offloaded Spatial Audio Rendering, a scene-aware spatial audio pipeline using SegFormer segmentation and Steam Audio binaural rendering that achieved a 2.7x latency improvement through edge offloading; Soundscape, an interactive spatial audio app for iPhone and iPad built for the Swift Student Challenge; and Fractured Double, a granular-doubling VST3 plugin built in JUCE/C++ for my senior capstone.
+            My recent projects sit at the intersection of audio and systems engineering. Offloaded Spatial Audio Rendering is a scene-aware spatial audio pipeline using SegFormer segmentation and Steam Audio binaural rendering that achieved a 2.7x latency improvement through edge offloading. I also built Soundscape, an interactive spatial audio app for iPhone and iPad, for the Swift Student Challenge, and Fractured Double, a granular-doubling VST3 plugin in JUCE/C++, for my senior capstone.
         </p>
     </section>
 
