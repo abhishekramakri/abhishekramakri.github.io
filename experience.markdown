@@ -31,7 +31,7 @@ title: Experience
             <div class="experience-meta">Sep 2026 – Present</div>
             <div class="experience-role">Software Developer Intern</div>
             <p>
-                I'm back at Amazon in Seattle, building an end-to-end system that turns red-team findings against Amazon's fraud-detection models into live production monitoring, designed to alert the ML team within hours instead of after a week or more of manual analysis.
+                I'm back at Amazon, this time in San Diego, building an end-to-end system that turns red-team findings against Amazon's fraud-detection models into live production monitoring, designed to alert the ML team within hours instead of after a week or more of manual analysis.
                 I'm adding an observe-only step to the real-time fraud detection service that matches traffic against known weakness patterns after the response is sent, so customers see no added latency.
                 New patterns go live without a deploy through an ingestion pipeline I'm building in Kotlin and AWS CDK (Lambda, S3, DynamoDB, AppConfig), which validates each pattern and provisions its own CloudWatch alarm.
                 I wrote the design doc, co-designed a structured pattern schema with the ML team to replace prose-only findings, and am building a TypeScript dashboard that shows each pattern's match rate and alarm state.
